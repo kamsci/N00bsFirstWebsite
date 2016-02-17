@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, ul, ol, li, p, a, img {
+html, body, h1, h2, h3, h4, h5, ul, ol, li, p, a, img {
   padding: 0;
   border: 0;
   margin: 0;
@@ -8,30 +8,28 @@ body {
   font-family: monospace;
 }
 .header {
-  background: #000000 url(images/PanoWheelMid.jpg) center center no-repeat;
+  background: #000000 url(images/PanoWheelBright.jpg) center center no-repeat;
   text-align:right;
   font-family: monospace;
-  font-size: 12px;
   color: #FF7D33;
-  height: 200px;
-  max-width: 600px;
-  margin: 10px auto 0 auto;
-  padding: 90px 0 1px 0;
-  border: 3 solid #222222;
+  height: 360px;
+  max-width: 864px;
+  margin: 0 auto 0 auto;
+  border: 3px solid #222222;
 }
 .header h1{
-  padding-top: 100px;
+  padding-top: 240px;
 }
 .header img{
   float: right;
-  padding: 75px 15px 15px 15px;
+  padding: 175px 15px 15px 15px;
 }
 .nav {
   background-color: #1f1f2e;
   padding: 5px 0 1px 0;
 }
 .nav ul {
-  font-size: 16px;
+  font-size: 18px;
   font-family: monospace;;
   list-style-type: none;
   text-align: center;
@@ -42,21 +40,21 @@ body {
 }
 .nav li {
   display: inline;
-  padding: 0px 16px 0 12px;
+  padding: 2px 20px 2px 12px;
   color: #FF7D33;
 }
 .nav li:first-child a {
   color: #33BBFF;
 }
 .content {
-  width: 500px;
+  width: 764px;
   margin: 5px auto 5px auto;
   padding: 20px 50px 400px 50px;
   background: #CCCCCC url(images/concrete_seamless.png) top left repeat;
-  border: 3 solid #222222;
+  border: 3px solid #222222;
 }
 .content h2 {
-  font-size: 22px;
+  font-size: 24px;
 }
 .content h4 {
   border-bottom: 2px;
@@ -65,30 +63,54 @@ body {
   font-size: 14px;
   padding-top: 16px;
 }
+.resume-content {
+  width:764px;
+  margin: 5px auto 5px auto;
+  padding: 20px 50px 20px 50px;
+  background: #CCCCCC url(images/concrete_seamless.png) top left repeat;
+  border: 3 solid #222222;
+}
+.resume-content h2 {
+  font-size: 26px;
+}
 .resume-content h4 {
   font-size: 16px;
   border-bottom: 1pt solid #000000;
-  padding-top: 10px;
-}
-.resume-content p {
-  padding-bottom: 0 0 12px 0;
+  margin: 20px 0 10px 0;
 }
 .resume-content h5 {
+  font-size: 16px;
+  padding: 0 0 5px 0;
+}
+.resume-content p {
+  padding: 0 0 10px 20px;
   font-size: 14px;
-  padding: 10px 0 5px 0;
 }
 .resume-content ul {
-  padding-left: 8px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.resume-content li {
+  margin-bottom: 5px;
+}
+.resume-content li:last-child {
+  margin-bottom: 12px;
+}
+.non-bullet ul {
+  padding-left: 5px;
+}
+.non-bullet li {
+  list-style-type: none;
 }
 
 @media (max-width: 525px) {
   .nav li {
-    padding: 5px 5px 5px 5px;
+    padding: 3px 5px 3px 5px;
     display: block;
     font-size: 18px;
   }
   .header h1 {
-    padding-top:3px;
+    padding-top: 8px;
     text-align: center;
   }
   .header {
@@ -96,15 +118,20 @@ body {
     font-family: monospace;
     font-size: 12px;
     color: #FF7D33;
-    height: 225px;
+    height: 294px;
     width: 470px;
   }
-  .header img{
+  .header img {
     float: none;
-    padding: 0 35px 0 20px;
+    padding: 80px 35px 0 20px;
   }
   .content {
     width: 440px;
     padding: 10px 15px 400px 15px;
+  }
+  .resume-content {
+    width: 450px;
+    padding: 10px 15px 400px 15px;
+
   }
 }
