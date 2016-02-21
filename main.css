@@ -2,10 +2,13 @@ html, body, h1, h2, h3, h4, h5, ul, ol, li, p, a, img {
   padding: 0;
   border: 0;
   margin: 0;
+  font-size: 100%;
+  font: inherit;
 }
 body {
   background-color: #1f1f2e;
-  font-family: monospace;
+  font-family: helvenica, Garamond, monospace, sans-serif;;
+  line-height: 14pt;
 }
 .header {
   background: #000000 url(images/PanoWheelBright.jpg) center center no-repeat;
@@ -19,6 +22,8 @@ body {
 }
 .header h1{
   padding-top: 240px;
+  font-size: 36px;
+  font-weight: bold;
 }
 .header img{
   float: right;
@@ -30,7 +35,6 @@ body {
 }
 .nav ul {
   font-size: 18px;
-  font-family: monospace;;
   list-style-type: none;
   text-align: center;
 }
@@ -55,6 +59,7 @@ body {
 }
 .content h2 {
   font-size: 24px;
+  padding: 10px 0 25px 0;
 }
 .content h4 {
   border-bottom: 2px;
@@ -69,18 +74,24 @@ body {
   padding: 20px 50px 20px 50px;
   background: #CCCCCC url(images/concrete_seamless.png) top left repeat;
   border: 3 solid #222222;
+  line-height: 16px;
 }
 .resume-content h2 {
   font-size: 26px;
+  padding: 10px 0 15px 0;
 }
 .resume-content h4 {
   font-size: 16px;
   border-bottom: 1pt solid #000000;
   margin: 20px 0 10px 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .resume-content h5 {
   font-size: 16px;
-  padding: 0 0 5px 0;
+  padding: 10px 0 5px 0;
+  font-weight: bold;
+  font-style: italic;
 }
 .resume-content p {
   padding: 0 0 10px 20px;
@@ -92,6 +103,7 @@ body {
 }
 .resume-content li {
   margin-bottom: 5px;
+  line-height: 16px;
 }
 .resume-content li:last-child {
   margin-bottom: 12px;
