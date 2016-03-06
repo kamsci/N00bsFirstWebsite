@@ -67,6 +67,7 @@ body {
 .content p {
   font-size: 14px;
   padding-top: 16px;
+  line-height: 18px;
 }
 .welcome-content p {
   padding-bottom: 10px;
@@ -74,6 +75,50 @@ body {
 .welcome-content ul {
   list-style-type: none;
   padding-left: 5px;
+}
+.layers-content img {
+  height: 100px;
+  display: block;
+  margin: 10px auto 0 auto;
+  background: none;
+}
+.layers-content ul {
+  max-width: 210px;
+  margin: 0 auto 24px auto;
+  border: 2px solid #D9E1E2;
+  border-radius: 5px;
+  background-color: #D0C4C5;
+}
+.layers-content li {
+  list-style-type: none;
+  max-width: 200px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  line-height: inherit;
+  border-radius: 10px;
+}
+.layers-content li:first-child {
+  padding-left: 0;
+  background: #FF808B;
+  font-family: cursive;
+  font-size: 22px;
+}
+.layers-content li:nth-child(2) {
+  padding: 15px 0 15px 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  background: #A0DAB3;
+}
+.layers-content li:nth-child(3) {
+  padding: 20px 0 20px 0;
+  font-size: 24px;
+  background: #F6BE00;
+}
+.layers-content li:last-child {
+  padding: 10px 0 10px 0;
+  font-family: fantasy;;
+  font-size: 24px;
+  background: #C58B68;
 }
 .resume-content h2 {
   font-size: 26px;
